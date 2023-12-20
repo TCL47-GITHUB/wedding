@@ -493,7 +493,7 @@ header .navbar-brand {
 /* event-section */
 
 .event-section .event-item {
-  background-color: #f3dfe4 !important;
+  background-color: #c9d8eb !important;
 }
 
 /* people-section */
@@ -511,7 +511,7 @@ header .navbar-brand {
 }
 .wishes-section button,
 .event-section a {
-  background-color: #f3b5c4;
+  background-color: #6998AB;
   border: none;
   transition: 0.2s;
   color: #fff;
