@@ -22318,7 +22318,7 @@ body {
 }
 
 .section-sub-title {
-  font-size: 1.1rem;
+  font-size: 1.1rem!important;
   font-weight: 200!important;
 }
 
