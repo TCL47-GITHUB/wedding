@@ -580,7 +580,7 @@ header .navbar-brand {
     font-size: 0.5rem;
   }
   .invitation-couple p {
-    font-size: 1.2rem;
+    font-size: 1.2rem!important;
   }
   .invitation-section .invitation-parent {
     font-size: 1rem;
