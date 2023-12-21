@@ -22601,6 +22601,8 @@ img {
 .weddingdate-section #clock {
   max-width: 485px;
   overflow: hidden;
+  display: flex;
+   gap: 10px;
 }
 
 .weddingdate-section #clock > div {
