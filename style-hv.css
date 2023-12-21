@@ -291,7 +291,9 @@ header .navbar-brand {
   padding-bottom: 20px;
 }
 .weddingdate-section .countdown .box {
-  color: #406882 !important;
+  color: #eeeeee !important;
+    background: #fc7c7c;
+    border-radius: 12px;
 }
 
 .weddingdate-section table th {
