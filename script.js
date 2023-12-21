@@ -1,4 +1,4 @@
-<script>
+
   // Lấy các phần tử từ DOM
   const daysElement = document.getElementById('days');
   const hoursElement = document.getElementById('hours');
@@ -31,4 +31,4 @@
       document.getElementById('clock').innerHTML = 'Đã qua thời gian đếm ngược!';
     }
   }, 1000);
-</script>
+
