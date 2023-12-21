@@ -183,10 +183,12 @@ header .navbar-brand {
   font-family: "Baloo Paaji 2", cursive;
   display: flex;
   justify-content: center;
+  align-items: center;
+    gap: 0.5rem;
 }
 .day_area_inner > img {
-  width: 40px;
-  margin-left: 10px;
+  width: 45px;
+  height:45px;
   vertical-align: middle;
 }
 .main_area .main_image_area {
