@@ -16,6 +16,12 @@
     <script type="module" src="script.js"></script>
 
   </head>
+ <!-- Biểu tượng hoặc nút để kích hoạt âm thanh -->
+<button id="audioControl"><i class="bi bi-play"></i></button>
+<audio id="backgroundAudio">
+  <source src="https://firebasestorage.googleapis.com/v0/b/blog-tcl47.appspot.com/o/images%2F3_So%20s%C3%A2u.mp3?alt=media&token=a8358ac1-0da2-4878-a11d-885c72bc1683" type="audio/mp3">
+  Your browser does not support the audio element.
+</audio>
   <body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
     <div class="wrapper">
       <!-- banner section -->
@@ -32,7 +38,7 @@
                     <img src="https://preview.iwedding.info/templates/template133/img/wedding-lable.png" alt="">
                 </div>
             </div>
-            <div data-aos="fade-up" class="wedding_area my-3 text-center aos-init">
+            <div data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="500" class="wedding_area my-3 text-center aos-init">
                 <div class="title pt-3 pb-2">
                     <span class="groom_name">Hữu Vinh</span>
                     <span>♥</span>
@@ -50,21 +56,21 @@
         <div class="container-fluid">
             <div class="row gx-2 justify-content-center">
                                     <div class="col-sm-4">
-                    <a href="#wishes" class="w-100 mb-1 px-2 accessibility-btn btn btn-secondary aos-init aos-animate" data-aos="fade-right">
+                    <a href="#wishes" class="w-100 mb-1 px-2 accessibility-btn btn btn-secondary aos-init aos-animate" data-aos-easing="ease-out-cubic" data-aos-duration="500" data-aos="fade-right">
                         <span class="content-button">
                             <i class="bi bi-chat"></i> Gửi lời chúc
                         </span>
                     </a>
                 </div>
                                                         <div class="col-sm-4">
-                    <a href="https://preview.iwedding.info/rsvp" target="_blank" class="w-100 mb-1 px-2 accessibility-btn btn btn-secondary aos-init aos-animate" data-aos="fade-up">
+                    <a href="https://preview.iwedding.info/rsvp" target="_blank" class="w-100 mb-1 px-2 accessibility-btn btn btn-secondary aos-init aos-animate" data-aos-easing="ease-out-cubic" data-aos-duration="500" data-aos="fade-up">
                         <span class="content-button">
                             <i class="bi bi-send"></i> Xác nhận tham dự
                         </span>
                     </a>
                 </div>
                                                         <div class="col-sm-4">
-                    <a href="javascript:void(0)" class="w-100 mb-1 accessibility-btn btn btn-secondary buttonDonate aos-init aos-animate" data-aos="fade-left">
+                    <a href="javascript:void(0)" class="w-100 mb-1 accessibility-btn btn btn-secondary buttonDonate aos-init aos-animate" data-aos-easing="ease-out-cubic" data-aos-duration="500" data-aos="fade-left">
                         <span class="content-button">
                             <i class="bi bi-coin"></i> Mừng cưới
                         </span>
@@ -76,10 +82,10 @@
       <!-- video section -->
       <section class="py-5 video-section section-bg-affect" id="video">
         <div class="container-fluid">
-            <h2 class="section-title text-center aos-init aos-animate" data-aos="fade-up">
+            <h2 class="section-title text-center aos-init aos-animate" data-aos-easing="ease-out-cubic" data-aos-duration="500"data-aos="fade-up">
                 Video Cưới 
             </h2>
-            <h3 class="section-sub-title mb-4 text-center aos-init aos-animate" data-aos="fade-up">
+            <h3 class="section-sub-title mb-4 text-center aos-init aos-animate" data-aos-easing="ease-out-cubic" data-aos-duration="500" data-aos="fade-up">
                 Tình yêu không làm cho thế giới quay tròn. 
             </h3> 
             <div class="ratio ratio-16x9 aos-init aos-animate" data-aos="zoom-in">
@@ -221,21 +227,21 @@
                         Hữu Vinh ♥ Ngọc Huyền			
                     </p>
                 </div>
-                <div class="mini_calendar m-auto pb-3 aos-init aos-animate" data-aos="fade-up-right">
+                <div class="mini_calendar m-auto pb-3 aos-init aos-animate" data-aos-easing="ease-out-cubic" data-aos-duration="500" data-aos="fade-up-right">
                     <div class="mini_calendar">
-  <table>
-  <caption class="calendar-month">Tháng 4 /  2024</caption>
-  <tbody><tr><th abbr="Monday">Thứ 2</th><th abbr="Tuesday">Thứ 3</th><th abbr="Wednesday">Thứ 4</th><th abbr="Thursday">Thứ 5</th><th abbr="Friday">Thứ 6</th><th abbr="Saturday">Thứ 7</th><th abbr="Sunday">CN</th></tr>
-  <tr><td>1</td><td>2</td><td>3</td><td><div id="today">4</div></td><td>5</td><td>6</td><td>7</td></tr>
-  <tr><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td></tr>
-  <tr><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td><td>21</td></tr>
-  <tr><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td><td>28</td></tr>
-  <tr><td>29</td><td>30</td><td id="emptydays" colspan="5">&nbsp;</td></tr>
-  </tbody></table>
-  </div>
+                      <table>
+                      <caption class="calendar-month">Tháng 4 /  2024</caption>
+                      <tbody><tr><th abbr="Monday">Thứ 2</th><th abbr="Tuesday">Thứ 3</th><th abbr="Wednesday">Thứ 4</th><th abbr="Thursday">Thứ 5</th><th abbr="Friday">Thứ 6</th><th abbr="Saturday">Thứ 7</th><th abbr="Sunday">CN</th></tr>
+                      <tr><td>1</td><td>2</td><td>3</td><td><div id="today">4</div></td><td>5</td><td>6</td><td>7</td></tr>
+                      <tr><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td></tr>
+                      <tr><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td><td>21</td></tr>
+                      <tr><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td><td>28</td></tr>
+                      <tr><td>29</td><td>30</td><td id="emptydays" colspan="5">&nbsp;</td></tr>
+                      </tbody></table>
+                      </div>
 
                 </div>
-                <div class="countdown aos-init aos-animate" data-aos="fade-up-left">
+                <div class="countdown aos-init aos-animate" data-aos-easing="ease-out-cubic" data-aos-duration="500" data-aos="fade-up-left">
                     <div class="m-auto" id="clock" data-date="2024-04-04" data-text-day="Ngày" data-text-hour="Giờ" data-text-minute="Phút" data-text-second="Giây"><div class="box"><div>105</div> <span>Ngày</span> </div><div class="box"><div>02</div> <span>Giờ</span> </div><div class="box"><div>04</div> <span>Phút</span> </div><div class="box"><div>06</div> <span>Giây</span> </div></div>
                 </div>
             </div>
@@ -244,16 +250,16 @@
       <!-- story section -->
       <section class="py-5 story-section section-bg-affect" id="story">
         <div class="container-fluid">
-            <h2 data-aos="fade-up" class="section-title text-center aos-init aos-animate">
+            <h2 data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="800" class="section-title text-center aos-init aos-animate">
                 Chuyện tình yêu
             </h2>
-            <h3 data-aos="fade-up" class="section-sub-title mb-4 text-center aos-init aos-animate">
+            <h3 data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="800" class="section-sub-title mb-4 text-center aos-init aos-animate">
                 Tình yêu không chỉ là một danh từ - nó là một động từ; nó còn hơn cả một cảm giác - đó là sự quan tâm, chia sẻ, giúp đỡ, hy sinh.
             </h3>
             <div class="story-content">
                 <div class="timeline">
                     <div class="outer">
-                                                    <div class="timeline-card aos-init aos-animate" data-aos="fade-right">
+                            <div class="timeline-card aos-init aos-animate"data-aos-easing="ease-out-cubic" data-aos-duration="500" data-aos="fade-right">
                             <div class="info">
                                 <span class="date">December 12 2015</span>
                                 <h3 class="title">Bạn có tin vào tình yêu online không?</h3>
@@ -265,7 +271,7 @@
                                 </div>
                             </div>
                         </div>
-                                                    <div class="timeline-card aos-init" data-aos="fade-left">
+                            <div class="timeline-card aos-init" data-aos-easing="ease-out-cubic" data-aos-duration="500" data-aos="fade-left">
                             <div class="info">
                                 <span class="date">August 04 2016</span>
                                 <h3 class="title">Lời tỏ tình dễ thương^^</h3>
@@ -277,7 +283,7 @@
                                 </div>
                             </div>
                         </div>
-                                                    <div class="timeline-card aos-init" data-aos="fade-right">
+                            <div class="timeline-card aos-init" data-aos-easing="ease-out-cubic" data-aos-duration="500" data-aos="fade-right">
                             <div class="info">
                                 <span class="date">May 10 2018</span>
                                 <h3 class="title">Phút giây cầu hôn</h3>
@@ -289,7 +295,7 @@
                                 </div>
                             </div>
                         </div>
-                                                    <div class="timeline-card aos-init" data-aos="fade-left">
+                            <div class="timeline-card aos-init" data-aos-easing="ease-out-cubic" data-aos-duration="500" data-aos="fade-left">
                             <div class="info">
                                 <span class="date">July 28 2018</span>
                                 <h3 class="title">Ngày lễ đính hôn</h3>
@@ -388,13 +394,13 @@ Một lần nữa chân thành cảm ơn tất cả các bạn!
       <div class="flip-card member member-bride col">
          <div class="flip-card-inner">
             <div class="flip-card-front p-2 d-flex flex-column justify-content-between border">
-               <div data-aos="flip-right" class="member-image animation aos-init aos-animate">
+               <div data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="500" class="member-image animation aos-init aos-animate">
                             <img src="https://cdn.biihappy.com/ziiweb/default/website/59b631f29bfb9f7cd20437d27ddbe4db.jpeg">
                </div>
-               <div data-aos="fade-right" class="member-name fs-5 my-2 aos-init aos-animate">
+               <div data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="500" class="member-name fs-5 my-2 aos-init aos-animate">
                   to. BRIDE
                </div>         
-                                                      <div class="invitation-groom-parent d-flex flex-column mx-auto text-center">
+                             <div class="invitation-groom-parent d-flex flex-column mx-auto text-center">
                             <div class="parent-name">Con ông: <span>Ngô Xuân Nghĩa</span></div>
                             <div class="parent-name">Con bà: <span>Trần Hồng Thắm</span></div>
                         </div>
@@ -432,13 +438,13 @@ Một lần nữa chân thành cảm ơn tất cả các bạn!
       <!-- event section -->
       <section class="py-5 event-section section-bg-affect" id="event">
         <div class="container-fluid">
-            <h2 data-aos="fade-up" class="section-title text-center aos-init aos-animate">
+            <h2 data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="500" class="section-title text-center aos-init aos-animate">
                 Sự Kiện Cưới
             </h2>
-            <h3 data-aos="fade-up" class="section-sub-title mb-4 text-center aos-init aos-animate">
+            <h3 data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="500" class="section-sub-title mb-4 text-center aos-init aos-animate">
                 Cảm ơn bạn rất nhiều vì đã gửi những lời chúc mừng tốt đẹp nhất đến đám cưới của chúng tôi!
             </h3>
-                                                    <div data-aos="flip-right" class="event-item d-flex flex-row p-0 border-0 rounded overflow-hidden aos-init aos-animate">
+                                                    <div data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="500" class="event-item d-flex flex-row p-0 border-0 rounded overflow-hidden aos-init aos-animate">
                     <div class="image-wrap" style="background-image: url('https://cdn.biihappy.com/ziiweb/website/61990349db8f76231c132068/45dfd859dd184042e2a6adaa320ac64b.jpeg');"></div>
                     <div class="info-wrap p-3">
                         <h5 class="section-sub-title">LỄ CƯỚI NHÀ NỮ</h5>
@@ -467,7 +473,7 @@ https://preview.iwedding.info",
                         <a href="https://www.google.com/maps/place/Da+Nang,+H%E1%BA%A3i+Ch%C3%A2u+District,+Da+Nang,+Vietnam/@16.0471659,108.1716864,13z/data=!3m1!4b1!4m5!3m4!1s0x314219c792252a13:0xfc14e3a044436487!8m2!3d16.0544068!4d108.2021667" target="_blank" class="section-sub-title btn btn-sm btn-secondary">Xem bản đồ</a>
                     </div>
                 </div>
-                                                                        <div data-aos="flip-left" class="event-item d-flex flex-row p-0 border-0 rounded overflow-hidden aos-init aos-animate">
+                                                                        <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="500" class="event-item d-flex flex-row p-0 border-0 rounded overflow-hidden aos-init aos-animate">
                     <div class="image-wrap" style="background-image: url('https://cdn.biihappy.com/ziiweb/website/61990349db8f76231c132068/8f7155409bf9ebdb9dffd7a38991aaa8.jpeg');"></div>
                     <div class="info-wrap p-3">
                         <h5 class="section-sub-title">TIỆC CƯỚI NHÀ NỮ</h5>
@@ -496,7 +502,7 @@ https://preview.iwedding.info",
                         <a href="https://www.google.com/maps/place/Da+Nang,+H%E1%BA%A3i+Ch%C3%A2u+District,+Da+Nang,+Vietnam/@16.0471659,108.1716864,13z/data=!3m1!4b1!4m5!3m4!1s0x314219c792252a13:0xfc14e3a044436487!8m2!3d16.0544068!4d108.2021667" target="_blank" class="section-sub-title btn btn-sm btn-secondary">Xem bản đồ</a>
                     </div>
                 </div>
-                                                                        <div data-aos="flip-right" class="event-item d-flex flex-row p-0 border-0 rounded overflow-hidden aos-init aos-animate">
+                                                                        <div data-aos-easing="ease-out-cubic" data-aos-duration="500" data-aos="flip-right" class="event-item d-flex flex-row p-0 border-0 rounded overflow-hidden aos-init aos-animate">
                     <div class="image-wrap" style="background-image: url('https://cdn.biihappy.com/ziiweb/website/61990349db8f76231c132068/83d8a5c840b51447ab080ecb9a7de6df.jpeg');"></div>
                     <div class="info-wrap p-3">
                         <h5 class="section-sub-title">LỄ CƯỚI NHÀ NAM</h5>
@@ -525,7 +531,7 @@ https://preview.iwedding.info",
                         <a href="https://www.google.com/maps/place/Da+Nang,+H%E1%BA%A3i+Ch%C3%A2u+District,+Da+Nang,+Vietnam/@16.0471659,108.1716864,13z/data=!3m1!4b1!4m5!3m4!1s0x314219c792252a13:0xfc14e3a044436487!8m2!3d16.0544068!4d108.2021667" target="_blank" class="section-sub-title btn btn-sm btn-secondary">Xem bản đồ</a>
                     </div>
                 </div>
-                                                                        <div data-aos="flip-left" class="event-item d-flex flex-row p-0 border-0 rounded overflow-hidden aos-init aos-animate">
+                                                                        <div data-aos-easing="ease-out-cubic" data-aos-duration="500" data-aos="flip-left" class="event-item d-flex flex-row p-0 border-0 rounded overflow-hidden aos-init aos-animate">
                     <div class="image-wrap" style="background-image: url('https://cdn.biihappy.com/ziiweb/website/61990349db8f76231c132068/194d4b3c58f61adb4931a8a00a4fa019.jpeg');"></div>
                     <div class="info-wrap p-3">
                         <h5 class="section-sub-title">TIỆC CƯỚI NHÀ NAM</h5>
@@ -559,14 +565,14 @@ https://preview.iwedding.info",
       <!-- people section -->
       <section class="py-5 people-section section-bg-affect" id="people">
         <div class="container-fluid">
-            <h2 data-aos="fade-up" class="section-title text-center aos-init aos-animate">
+            <h2 data-aos="fade-up"  data-aos-easing="ease-out-cubic" data-aos-duration="500"class="section-title text-center aos-init aos-animate">
                 Phù Dâu &amp; Phù Rể
             </h2>
-            <h3 data-aos="fade-up" class="section-sub-title mb-0 text-center aos-init aos-animate">
+            <h3 data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="500" class="section-sub-title mb-0 text-center aos-init aos-animate">
                 Tình yêu không có rào cản. Nó nhảy rào, nhảy rào, xuyên tường để đến đích với đầy hy vọng.
             </h3>
             <div class="row">
-                                    <div data-aos="fade-right" class="col-12 col-sm-6 aos-init aos-animate">
+                                    <div data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="500" class="col-12 col-sm-6 aos-init aos-animate">
                                             <div class="w-100 mt-5">
                         <div class="rounded-circle people-avatar w-75 m-auto mb-3">
                             <img src="https://cdn.biihappy.com/ziiweb/website/61990349db8f76231c132068/fa1780c6fe429eff4f2d564d6fbaff98.jpeg" class="card-img-top" alt="...">
@@ -625,7 +631,7 @@ https://preview.iwedding.info",
                     </div>
                                         </div>
                 
-                                    <div data-aos="fade-left" class="col-12 col-sm-6 aos-init aos-animate">
+                                    <div data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="500" class="col-12 col-sm-6 aos-init aos-animate">
                                                 <div class="w-100 mt-5">
                             <div class="rounded-circle people-avatar w-75 m-auto mb-3">
                                 <img src="https://cdn.biihappy.com/ziiweb/website/61990349db8f76231c132068/0a6cfab9e637b586cec8724825f99d9e.jpeg" class="card-img-top" alt="...">
@@ -690,14 +696,14 @@ https://preview.iwedding.info",
       <section class="py-5 donate-section section-bg-affect" id="donate">
         <div class="container-fluid ">
            <div class="w-100">
-              <h2 data-aos="fade-up" class="section-title text-center m-0 aos-init aos-animate">
+              <h2 data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="500" class="section-title text-center m-0 aos-init aos-animate">
                  Hộp mừng cưới 
               </h2>
-              <h3 data-aos="fade-up" class="section-sub-title mb-4 text-center aos-init aos-animate">
+              <h3 data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="500" class="section-sub-title mb-4 text-center aos-init aos-animate">
                  Thật vui vì được gặp và đón tiếp các bạn trong một dịp đặc biệt như đám cưới của chúng tôi. 
               </h3>
               <div class="row d-flex justify-content-around donate-box mb-1">
-                                      <div data-aos="fade-right" class="col-6 mb-4 donate-wrap aos-init aos-animate">
+                                      <div data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="500" class="col-6 mb-4 donate-wrap aos-init aos-animate">
                     <div class="donate-card p-3 rounded text-center">
                        <strong class="d-block sub-title mb-2 text-uppercase">Đến chú rể</strong>
                        <img class="qr-code-image m-auto mb-2" src="https://cdn.biihappy.com/ziiweb/website/61990349db8f76231c132068/49bc348db7eb284d9fc249b9d958893b.jpeg">
@@ -736,7 +742,7 @@ https://preview.iwedding.info",
                        </div>
                                                </div>
                  </div>
-                                                           <div data-aos="fade-left" class="col-6 donate-wrap aos-init aos-animate">
+                                                           <div data-aos-easing="ease-out-cubic" data-aos-duration="500" data-aos="fade-left" class="col-6 donate-wrap aos-init aos-animate">
                     <div class="donate-card p-3 rounded text-center">
                        <strong class="d-block sub-title mb-2 text-uppercase">Đến cô dâu</strong>
                        <img class="qr-code-image m-auto mb-2" src="https://cdn.biihappy.com/ziiweb/website/61990349db8f76231c132068/24343a45a211dedc5b1b0b57300eaba9.jpeg">
@@ -786,10 +792,20 @@ https://preview.iwedding.info",
             <h5 class="sub-title">-- Hữu Vinh &amp; Ngọc Huyền --</h5>
         </div>
     </section>
-    </div>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-      AOS.init();
-    </script>
+    // Lắng nghe sự kiện click trên biểu tượng hoặc nút và điều khiển âm thanh
+    document.getElementById('audioControl').addEventListener('click', function() {
+      var audio = document.getElementById('backgroundAudio');
+      if (audio.paused) {
+        audio.play();
+       this.innerHTML = '<i class="bi bi-pause"></i>'; // Biểu tượng dừng
+      } else {
+        audio.pause();
+        this.innerHTML = '<i class="bi bi-play"></i>'; // Biểu tượng phát
+      }
+    });
+  </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script> AOS.init(); </script>
   </body>
 </html>
