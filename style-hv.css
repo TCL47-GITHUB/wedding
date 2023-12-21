@@ -9,19 +9,7 @@
 ::-webkit-scrollbar-thumb {
   background-color: #dcbdc5;
 }
-#audioControl {
-          position: fixed;
-    bottom: 10px;
-    left: 10px;
-    padding: 0.25rem;
-    background-color: #fe4444;
-    border: none;
-    border-radius: 50%;
-    color: #ffffff;
-    font-size: 24px;
-    cursor: pointer;
-    z-index: 222;
-    }
+
 body {
 font-family: 'Baloo Paaji 2';
 }
@@ -632,3 +620,17 @@ button#btn-submit-comment:hover {
 .reply-comment-box {
   border-top: 1px dashed #ef9daf;
 }
+
+#audioControl {
+          position: fixed;
+    bottom: 10px;
+    left: 10px;
+    padding: 0.25rem;
+    background-color: #fe4444;
+    border: none;
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 222;
+    }
